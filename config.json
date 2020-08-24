@@ -1,0 +1,14 @@
+{
+  "window": {
+    "title": "Inspiro",
+    "background_color": "black"
+  },
+  "quotes": {
+      "foreground_color": "white",
+      "quotes_filename": "quotes.csv",
+      "quote_font": "",
+      "quote_font_size": 40,
+      "author_font": "",
+      "author_font_size": 20
+  }
+}
