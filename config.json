@@ -1,6 +1,7 @@
 {
   "window": {
     "title": "Inspiro",
+    "geometry": "800x600",
     "background_color": "black"
   },
   "quotes": {

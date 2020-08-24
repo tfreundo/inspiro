@@ -7,7 +7,7 @@ Inspiro delivers your personal inspiring and motivational quotes fresh from the 
     * For windows this is under: `C:\Users\<YOUR_USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 1. (optional) Make other adoptions if desired in `config.json`
 1. Add your own quotes into the [quotes.csv file](quotes.csv)
-    * Each row is interpreted as one Quote containing of the quote text and the Author (which is optional) seperated by a comma.
+    * Each row is interpreted as one Quote containing of the quote text and the Author (which is optional) seperated by a semicolon.
 
 Now, with every login into your computer you will receive one of your configured quotes.
 

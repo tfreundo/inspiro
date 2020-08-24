@@ -9,7 +9,7 @@ class CsvReader:
         """
         with open(filename) as csv_file:
             quotes = []
-            csv_reader = csv.reader(csv_file, delimiter=',')
+            csv_reader = csv.reader(csv_file, delimiter=';')
             for row in csv_reader:
                 q = Quote()
                 try:

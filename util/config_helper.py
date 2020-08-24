@@ -11,6 +11,9 @@ class ConfigHelper:
     
     def get_window_title(self):
         return self.config["window"]["title"]
+
+    def get_window_geometry(self):
+        return self.config["window"]["geometry"]
     
     def get_window_background_color(self):
         return self.config["window"]["background_color"]
