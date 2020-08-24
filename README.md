@@ -2,13 +2,16 @@
 Inspiro delivers your personal inspiring and motivational quotes fresh from the oven! 
 
 ## Get started
-Just add your own quotes into the [quotes.csv file](quotes.csv).
-Each row is interpreted as one Quote containing of the quote text and the Author (which is optional) seperated by a comma.
+1. Download this repository as zip or clone it locally using git
+1. Add a shortcut of `inspiro.py` (with console window) or `inspiro.pyw` (without console window) to your autostart folder
+    * For windows this is under: `C:\Users\<YOUR_USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+1. (optional) Make other adoptions if desired in `config.json`
+1. Add your own quotes into the [quotes.csv file](quotes.csv)
+    * Each row is interpreted as one Quote containing of the quote text and the Author (which is optional) seperated by a comma.
 
-If you want you could e.g. include the script `inspiro.py` in your Autostart so that you get fresh quotes on every start of your day.
-Therefore just place the executable alongside with the `config.json` and `quotes.csv`.
+Now, with every login into your computer you will receive one of your configured quotes.
 
-## Ready to use package
+### Ready to use package
 At [Releases](https://github.com/tfreundo/inspiro/releases) you can find ready-to-use executables fresh from the oven.
 Currently there is only a **Windows executable** available.
 

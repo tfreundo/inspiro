@@ -1,6 +1,8 @@
 # Project-specific
 inspiro-venv
 .vscode
+my-quotes.csv
+quotes.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
