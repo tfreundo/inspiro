@@ -2,14 +2,15 @@
   "window": {
     "title": "Inspiro",
     "geometry": "800x600",
-    "background_color": "black"
+    "background_color": "black",
+    "background_image": "assets/background1.jpg",
+    "blur_background_image": true,
+    "blur_background_image_factor": 10
   },
   "quotes": {
-      "foreground_color": "white",
+      "foreground_color": "#FFFDF9",
       "quotes_filename": "quotes.csv",
-      "quote_font": "",
-      "quote_font_size": 40,
-      "author_font": "",
-      "author_font_size": 20
+      "quote_font": "ARIAL 20 bold",
+      "quote_textarea_width": 500
   }
 }
