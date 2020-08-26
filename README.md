@@ -34,7 +34,8 @@ Now, with every login into your computer you will receive one of your configured
 You want to package it yourself? Go ahead!
 The python package is bundled with [Pyinstaller](http://www.pyinstaller.org/).
 
-Simply execute `pyinstaller inspiro.py` or `pyinstaller --onefile --noupx inspiro.py` and the package will be generated into the `build` folder.
+Simply use the [dist.py](dist.py) and adapt it accordingly.
+You will find the generated executables in the `dist` folder.
 
 * For Linux builds see [here](https://pyinstaller.readthedocs.io/en/stable/bootloader-building.html#building-for-gnu-linux)
 * For MAC builds see [here](https://pyinstaller.readthedocs.io/en/stable/bootloader-building.html#building-for-mac-os-x)
